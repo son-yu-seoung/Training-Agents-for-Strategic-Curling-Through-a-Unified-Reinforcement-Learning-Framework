@@ -3,7 +3,7 @@ import pygame_widgets
 from pygame_widgets.slider import Slider 
 from pygame_widgets.button import Button
 import threading
-
+ 
 import time
 import math 
 import numpy as np
@@ -214,6 +214,7 @@ if __name__ == '__main__':
   pygame.display.update()
 
 4. pygmae quit
+
 
 
 '''
