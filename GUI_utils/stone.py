@@ -1,7 +1,7 @@
 import pygame
 from GUI_utils.circle import Circle
 from GUI_utils.point import Point 
-
+ 
 import os
 import csv
 import time
@@ -86,5 +86,6 @@ class Stone(Circle):
                 # else:
                 #     pygame.draw.circle(screen, (0, 255, 127), (pos.x, pos.y), self.radius*0.4)
                 #     # pygame.draw.circle(screen, (255, 178, 102), (pos.x, pos.y), self.radius*0.4)
+
 
 
