@@ -1,5 +1,5 @@
 from GUI_utils.point import Point 
-import pygame
+import pygame 
 import numpy as np
 
 
@@ -82,4 +82,5 @@ class Circle:
 
     def draw(self, screen):
         pygame.draw.circle(screen, self.color, (self.pos.x, self.pos.y), self.radius)
+
 
