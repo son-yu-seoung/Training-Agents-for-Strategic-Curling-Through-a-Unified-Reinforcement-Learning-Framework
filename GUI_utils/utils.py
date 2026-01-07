@@ -1,6 +1,6 @@
 import pygame
 import math
-
+ 
 class Utils:
     def draw_text(self, screen, msg, pos, color=(0, 0, 0)):
         text = self.font.render(msg, True, color)
@@ -79,4 +79,5 @@ class Utils:
 
         pygame.draw.line(self.screen, c, (start[0], start[1]), (end[0], end[1]), int(arrow_size//1.2))
         rotation = math.degrees(math.atan2(start[1]-end[1], end[0]-start[0]))+90
+
         pygame.draw.polygon(self.screen, c, ((end[0]+arrow_size*math.sin(math.radians(rotation)), end[1]+arrow_size*math.cos(math.radians(rotation))), (end[0]+arrow_size*math.sin(math.radians(rotation-120)), end[1]+arrow_size*math.cos(math.radians(rotation-120))), (end[0]+arrow_size*math.sin(math.radians(rotation+120)), end[1]+arrow_size*math.cos(math.radians(rotation+120)))))
