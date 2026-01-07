@@ -1,6 +1,6 @@
 import numpy as np
 import pygame
-import time 
+import time  
 
 class StoneManager:
 
@@ -136,3 +136,4 @@ class StoneManager:
 
 
             
+
