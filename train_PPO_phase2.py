@@ -1,7 +1,7 @@
 import os
 os.environ["PYTHONHASHSEED"] = str(42)
 os.environ.setdefault("CUBLAS_WORKSPACE_CONFIG", ":4096:8")  
-
+ 
 import torch
 import argparse
 import random
@@ -295,5 +295,6 @@ if __name__ == '__main__':
     
     thread = threading.Thread(target=trainer.train, daemon=True)
     thread.start()
+
 
     trainer.env.run()
