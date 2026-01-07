@@ -1,7 +1,7 @@
 import numpy as np
 from simulator import CurlingSimulator 
 from GUI_utils.stone import Stone
-import time
+import time 
 import math
 
 class Environment(CurlingSimulator):
@@ -174,4 +174,5 @@ class Environment(CurlingSimulator):
 
 
     def btn_shot(self):
+
         pass
