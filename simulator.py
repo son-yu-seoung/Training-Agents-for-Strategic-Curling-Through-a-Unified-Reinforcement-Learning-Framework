@@ -3,7 +3,7 @@ import pygame_widgets
 from pygame_widgets.slider import Slider 
 from pygame_widgets.button import Button
 import threading
-
+ 
 import time
 import math 
 import numpy as np
@@ -365,5 +365,6 @@ class CurlingSimulator(Buttons, Utils):
 if __name__ == '__main__': 
     simulator = CurlingSimulator()
     simulator.run() 
+
 
 
